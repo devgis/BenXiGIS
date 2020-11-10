@@ -1,0 +1,100 @@
+
+img{border:0px; margin:0px; padding:0px}
+ul,li,p{ list-style:none; margin:0px; padding:0px;}
+a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#555; margin:0px; padding:0px; text-decoration:none}
+a:hover{ color:#cc0000; text-decoration:none}
+
+/*导航下拉菜单*/
+#header{width:771px;margin:0px auto 0 auto;float:right;position:fixed;top:10px;right:10px;}
+.nav{
+	position: absolute;
+	width:771px;
+	height: 33px;
+	background:url(../images/navbg.gif) repeat-x;
+}
+.nav li{
+	position: relative;
+	float: left;
+}
+.nav .bg{ background:url(../images/nav_xian.gif) no-repeat; width:2px; height:33px; padding:0px; display:block;}
+.nav li a{
+	line-height: 30px;
+	padding:0px 10px;
+	float:left;
+	height:33px;
+	color:#fff;
+	font-size:14px;
+}
+.nav li a:hover {
+    background: url(../images/navbg_a.gif) repeat-x; color:#fff;
+}
+.nav li .nav-w {
+	z-index:21;
+	position:absolute;
+	display:none;
+	float:left;
+	clear:both;
+	overflow:hidden;
+	top:33px;
+	background:#fff;
+	border:#faa651 1px solid;
+	left:-1px;
+}
+.nav li:hover a{ background: url(../images/navbg_a.gif) repeat-x; color:#fff;}
+.nav li .section-nav1{ padding:10px; height:auto; overflow: hidden;}
+.nav li .section-nav1 ul {
+	position:static;
+	padding:0px;
+	margin:0px;
+	width:140px;
+	overflow:hidden;
+}
+.nav li .section-nav1 .gqxx{width:190px;}
+.nav li .section-nav1 ul li {
+	position:static;
+	padding:0px 3px;
+	margin-bottom:3px;
+	width:100%;
+	background:none;
+	float:left;
+    	border:#f0f0f0 1px solid;
+
+}
+
+
+.nav li .section-nav1 ul li:hover {
+	border: #faa651 1px solid;
+	background:none;
+	color: #faa651;
+}
+.nav li .section-nav1 ul li a {
+	/*border:#f0f0f0 1px solid;*/
+	text-align:left;
+	padding:0px;
+	line-height:22px;
+	width:auto;
+	padding-left:3px;
+	display:block;
+	background:none;
+	float:none;
+	height:auto;
+	color:#3167a5;
+	font-size:12px;
+	overflow:hidden;
+	cursor:pointer;
+}
+/*.nav li .section-nav1 ul li a:hover {
+	border: #faa651 1px solid;
+	background:none;
+	color: #faa651;
+}*/
+
+
+.nav li .section-nav1 ul li .sanji{width:150px;float:right;margin-top:5px;margin-right:20px;}
+.nav li .section-nav1 ul li .sanji li{width:100%;border:0;}
+.nav li .section-nav1 ul li .sanji li:hover{border:0;
+	background:none;
+	color: #faa651;}
+.nav li .section-nav1 ul li .sanji li a{}
+.nav li .section-nav1 ul li .sanji li a:hover{color:#faa651;}
+/*导航下拉菜单*/

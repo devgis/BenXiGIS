@@ -1,0 +1,12 @@
+.menu_list{margin:10px auto;width:210px;overflow:hidden;}
+.menu_head{width:210px;height:39px;line-height:39px;padding-left:20px;font-size:15px;color:#fff;cursor:pointer;
+           position:relative;font-weight:bold;background:#2279b5;margin:0;}
+.menu_list .current{background:#47A3DA;border-top:1px solid #fff;}
+.menu_body{width:210px;height:auto;overflow:hidden;line-height:38px;background-color:#47A3DA;}
+.menu_body span{display:block;width:230px;height:38px;line-height:38px;padding-left:20px;color:#fff;background:#47A3DA;text-decoration:none;
+                font-size:13px;}
+.menu_body span:hover{text-decoration:none;}
+
+::-webkit-scrollbar {/*Òþ²Ø¹öÂÖ*/
+display: none;
+}
